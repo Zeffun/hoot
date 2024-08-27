@@ -39,6 +39,6 @@ Edit `package.json`
 
 ```json
 "lint-staged": {
-    "*.js": "prettier --write"
+    "*.(js,jsx)": "prettier --write"
   }
 ```
